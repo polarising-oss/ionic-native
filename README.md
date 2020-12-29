@@ -1,4 +1,13 @@
 [![Circle CI](https://circleci.com/gh/ionic-team/ionic-native.svg?style=shield)](https://circleci.com/gh/ionic-team/ionic-native) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![](https://img.shields.io/npm/v/@ionic-native/core.svg)
+# To Publish
+
+Serial plugin was changed to use the p8g-cordovarduino plugin.
+
+Commands to publish (internal version):
+
+set FLAGS=--registry=https://nexus.polarising.com/repository/polarising/
+
+npm run npmpub
 
 # Ionic Native
 

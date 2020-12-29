@@ -51,9 +51,9 @@ export interface SerialOpenOptions {
  */
 @Plugin({
   pluginName: 'Serial',
-  plugin: 'cordovarduino',
+  plugin: 'p8g-cordovarduino',
   pluginRef: 'serial',
-  repo: 'https://github.com/xseignard/cordovarduino',
+  repo: 'https://github.com/polarising-oss/cordovarduino',
   platforms: ['Android', 'Ubuntu'],
 })
 @Injectable()
